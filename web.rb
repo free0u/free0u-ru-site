@@ -1,5 +1,6 @@
 require 'sinatra'
+require 'erb'
 
 get '/' do
-  "Hello, world // Anton Evdokimov"
+  erb :index
 end
